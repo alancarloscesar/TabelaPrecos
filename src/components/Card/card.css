@@ -1,0 +1,210 @@
+/*main screen*/
+.titulo{
+    width: 100%;
+    margin-bottom: 28px;
+    text-align: center;
+    font-size: 31px;
+}
+.ControllerCards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.CardContainer{
+    background-color: #FEFEFE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 328.43px;
+    height: 556.03px;
+    border-radius: 14px;
+    box-shadow: 4px 4px 7.68266px rgba(0, 0, 0, 0.1);
+}
+
+.CardContainer header p{
+    margin-top: 28.81px;
+    font-size: 30.73px;
+    font-weight: 700;
+    margin-bottom: 31.22px;
+}
+.CardContainer img{
+    width: 89.31;
+    height: 89.31;
+    margin-bottom: 32.65px;
+}
+.ContainerMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.CardContainerMeio{
+    margin-left: 27px;
+    margin-right: 27px;
+}
+.MainPreco{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+.MainPreco h2{
+    font-size: 30.73px;
+    font-weight: 700;
+    margin-right: 5.96px;
+    color: #040521;
+}
+.MainPreco h3{
+    font-size: 17.29px;
+    font-weight: 400;
+    color: #3C3C3C;
+}
+.MainContext{
+    text-align: center;
+    margin-top: -15px;
+}
+.MainContext h3{
+    text-align: center;
+    margin-bottom: 14px;
+    color: #3c3c3c;
+    font-weight: 400;
+    font-size: 17px;
+}
+button{
+    background-color: #23c281;
+    border: 0;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+    width: 269px;
+    height: 45px;
+    border-radius: 90px;
+    margin-top: 10%;
+}
+
+
+
+@media (max-width: 850px){/*mobile e tablet*/
+    .ControllerCards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .CardContainer{
+        background-color: #FEFEFE;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 280px;
+        height: 500px;
+        border-radius: 12px;
+        margin-bottom: 27px;
+    }
+    
+    .CardContainer header p{
+        margin-top: 26px;
+        font-size: 27px;
+        font-weight: 700;
+        margin-bottom: 27px;
+    }
+    .CardContainer img{
+        width: 80px;
+        height: 80px;
+        margin-bottom: 29px;
+    }
+    .ContainerMain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .CardContainerMeio{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .MainPreco{
+        margin-top: -20px;
+    }
+    .MainPreco h2{
+        font-size: 27px;
+    }
+    .MainPreco h3{
+        font-size: 15px;
+    }
+    .MainContext{
+        text-align: center;
+        margin-top: -15px;
+    }
+    .MainContext h3{
+        font-size: 15px;
+    }
+    button{
+        font-size: 17px;
+        width: 244px;
+        height: 40px;
+        border-radius: 81px;
+        margin-top: 10%;
+    }
+}
+
+@media (min-width: 851px) and (max-width: 1110px){/*telas medianas*/
+    .ControllerCards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .CardContainer{
+        width: 243px;
+        height: 412px;
+        border-radius: 10px;
+    }
+    .CardContainerMeio{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .CardContainer header p{
+        margin-top: 21px;
+        font-size: 22px;
+        margin-bottom: 22px;
+    }
+    .CardContainer img{
+        width: 66px;
+        height: 66px;
+        margin-bottom: 24px;
+    }
+    .ContainerMain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .MainPreco{
+        margin-top: -20px;
+    }
+    .MainPreco h2{
+        font-size: 22px;
+    }
+    .MainPreco h3{
+        font-size: 12px;
+    }
+    .MainContext{
+        text-align: center;
+        margin-top: -15px;
+    }
+    .MainContext h3{
+        font-size: 12px;
+    }
+    button{
+        font-size: 14px;
+        width: 200px;
+        height: 33px;
+        border-radius: 66px;
+        margin-top: 10%;
+    }
+}
+

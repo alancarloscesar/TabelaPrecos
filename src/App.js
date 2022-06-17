@@ -1,14 +1,12 @@
 import React from 'react'
 import './app.css'
+import Card from './components/Card';
 
 function App() {
   return (
     <main className="Container">
-      <section className='ContainerTitle'>
-        <p>PLANOS</p>
-      </section>
       <section className='ContainerPlanos'>
-
+        <Card/>
       </section>
     </main>
   );
